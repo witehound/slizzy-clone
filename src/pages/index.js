@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import Head from "next/head";
-import { Header, SwipeSlider } from "../components";
+import { Header, SwipeSlider, WhoAreWe, Concepts } from "../components";
 
 export default function Home() {
   return (
@@ -14,6 +14,8 @@ export default function Home() {
       <div className="text-[#e7e7e7] uppercase">
         <Header />
         <SwipeSlider />
+        <WhoAreWe />
+        <Concepts />
       </div>
     </>
   );
