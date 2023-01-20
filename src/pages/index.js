@@ -6,6 +6,7 @@ import {
   WhoAreWe,
   Concepts,
   Publication,
+  Award,
 } from "../components";
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
         <WhoAreWe />
         <Concepts />
         <Publication />
+        <Award />
       </div>
     </>
   );
