@@ -7,6 +7,7 @@ import {
   Concepts,
   Publication,
   Award,
+  Office,
 } from "../components";
 
 export default function Home() {
@@ -25,6 +26,7 @@ export default function Home() {
         <Concepts />
         <Publication />
         <Award />
+        <Office />
       </div>
     </>
   );

@@ -15,6 +15,7 @@ import awardThree from "./award3.png";
 import awardFour from "./award4.png";
 import awardFive from "./award5.png";
 import awardSix from "./award6.png";
+import office from "./home-office.png";
 
 export {
   close,
@@ -34,4 +35,5 @@ export {
   awardFour,
   awardFive,
   awardSix,
+  office,
 };
