@@ -8,6 +8,7 @@ import {
   Publication,
   Award,
   Office,
+  Footer,
 } from "../components";
 
 export default function Home() {
@@ -27,6 +28,7 @@ export default function Home() {
         <Publication />
         <Award />
         <Office />
+        <Footer />
       </div>
     </>
   );
