@@ -8,6 +8,7 @@ import imageSlideFive from "./imageSlider5.png";
 import imageSliderSix from "./imageSlider6.png";
 import conceptOne from "./concept1.png";
 import conceptTwo from "./concept2.png";
+import publish from "./publications.png";
 
 export {
   close,
@@ -20,4 +21,5 @@ export {
   imageSliderSix,
   conceptOne,
   conceptTwo,
+  publish,
 };

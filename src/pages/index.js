@@ -1,6 +1,12 @@
 import React, { useState, useEffect, useRef } from "react";
 import Head from "next/head";
-import { Header, SwipeSlider, WhoAreWe, Concepts } from "../components";
+import {
+  Header,
+  SwipeSlider,
+  WhoAreWe,
+  Concepts,
+  Publication,
+} from "../components";
 
 export default function Home() {
   return (
@@ -16,6 +22,7 @@ export default function Home() {
         <SwipeSlider />
         <WhoAreWe />
         <Concepts />
+        <Publication />
       </div>
     </>
   );
