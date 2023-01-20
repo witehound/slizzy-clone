@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import Head from "next/head";
+import { Header } from "../components";
 
 export default function Home() {
   return (
@@ -10,7 +11,9 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="text-black">Hello world</div>
+      <div className="text-[#e7e7e7] uppercase">
+        <Header />
+      </div>
     </>
   );
 }
