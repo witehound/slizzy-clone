@@ -1,6 +1,7 @@
-import React, { useRef } from "react";
+import React, { useRef, useEffect } from "react";
 import Image from "next/image";
 import { close, menu } from "../../../public/images";
+import gsap from "gsap";
 
 const Header = () => {
   let resMenu = useRef(null);
@@ -9,6 +10,35 @@ const Header = () => {
   let resMenuItemTwo = useRef(null);
   let resMenuItemThree = useRef(null);
   let resMenuItemFour = useRef(null);
+  function menuOpen() {
+    openMenu.reversed() ? openMenu.play() : openMenu.reverse();
+  }
+
+  const openMenu = gsap.timeline({ paused: "true", reversed: "true" });
+  useEffect(() => {
+    openMenu.to(resMenu.current, {
+      y: 0,
+      zIndex: 100,
+      duration: 0.2,
+    });
+
+    openMenu.from(
+      [
+        resMenuHeader.current,
+        resMenuItemOne.current,
+        resMenuItemTwo.current,
+        resMenuItemThree.current,
+        resMenuItemFour.current,
+      ],
+      {
+        duration: 0.5,
+        stagger: {
+          amount: 0.4,
+        },
+        y: -50,
+      }
+    );
+  }, []);
   return (
     <div>
       <div
@@ -22,7 +52,10 @@ const Header = () => {
           <div className="mx-[5px] mix-blend-difference font-momentum font-semibold text-[20px] leading-none">
             Winged <br /> Anubis
           </div>
-          <div className="block md:hidden cursor-pointer mx-[5px]">
+          <div
+            className="block md:hidden cursor-pointer mx-[5px]"
+            onClick={menuOpen}
+          >
             <Image
               src={close}
               alt="closeicon"
@@ -94,6 +127,7 @@ const Header = () => {
               src={menu}
               alt="menu"
               className="w-9 object-contain invert"
+              onClick={menuOpen}
             />
           </div>
         </div>

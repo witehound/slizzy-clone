@@ -29,7 +29,9 @@ const Office = () => {
           <div className="text-lg">
             (LETS HEAR <br /> SOMETHING)
           </div>
-          <div className="text-5xl lg:text-8xl font-bold">INVENTEDMOST.COM</div>
+          <div className="text-5xl lg:text-8xl font-bold overflow-hidden">
+            INVENTEDMOST.COM
+          </div>
         </div>
         <div className="w-full h-[0.5px] bg-white"></div>
       </div>

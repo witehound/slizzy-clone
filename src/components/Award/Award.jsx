@@ -47,42 +47,42 @@ const Award = () => {
           <Image
             alt="award"
             src={awardOne}
-            className="h-18 sm:h-33 md:h-60 z-10 object-contain"
+            className=" h-19 sm:h-40 md:h-60 z-10 object-contain"
           />
         </div>
         <div className="absolute bottom-[10%] left-[15%]">
           <Image
             alt="award"
             src={awardTwo}
-            className="h-18 sm:h-33 md:h-60 z-10 object-contain"
+            className=" h-19 sm:h-40 md:h-60 z-10 object-contain"
           />
         </div>
         <div className="absolute bottom-[50%] left-[20%]">
           <Image
             alt="award"
             src={awardThree}
-            className="h-18 sm:h-33 md:h-60 z-10 object-contain"
+            className=" h-19 sm:h-40 md:h-60 z-10 object-contain"
           />
         </div>
         <div className="absolute bottom-[30%] left-[60%]">
           <Image
             alt="award"
             src={awardFour}
-            className="h-18 sm:h-33 md:h-60 z-10 object-contain"
+            className=" h-19 sm:h-40 md:h-60 z-10 object-contain"
           />
         </div>
         <div className="absolute right-[50%] bottom-[30%]">
           <Image
             alt="award"
             src={awardFive}
-            className="h-18 sm:h-33 md:h-60 z-10 object-contain"
+            className=" h-19 sm:h-40 md:h-60 z-10 object-contain"
           />
         </div>
         <div className="absolute bottom-[15%] left-[35%]">
           <Image
             alt="award"
             src={awardSix}
-            className="h-18 sm:h-33 md:h-60 z-10 object-contain"
+            className=" h-19 sm:h-40 md:h-60 z-10 object-contain"
           />
         </div>
       </div>
