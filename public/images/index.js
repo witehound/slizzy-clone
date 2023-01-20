@@ -6,6 +6,8 @@ import imageSliderThree from "./imageSlider3.png";
 import imageSliderFour from "./imageSlider4.png";
 import imageSlideFive from "./imageSlider5.png";
 import imageSliderSix from "./imageSlider6.png";
+import conceptOne from "./concept1.png";
+import conceptTwo from "./concept2.png";
 
 export {
   close,
@@ -16,4 +18,6 @@ export {
   imageSlideFive,
   imageSliderFour,
   imageSliderSix,
+  conceptOne,
+  conceptTwo,
 };
