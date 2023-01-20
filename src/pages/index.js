@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import Head from "next/head";
-import { Header } from "../components";
+import { Header, SwipeSlider } from "../components";
 
 export default function Home() {
   return (
@@ -13,6 +13,7 @@ export default function Home() {
       </Head>
       <div className="text-[#e7e7e7] uppercase">
         <Header />
+        <SwipeSlider />
       </div>
     </>
   );
